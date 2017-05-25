@@ -5,7 +5,7 @@ import { Car } from './car.model';
 @Component({
     selector: 'cars',
     template: `
-        <p-dataTable [value]="cars" scrollable="true" scrollHeight="calc(100vh - 29px)">
+        <p-dataTable [value]="cars" scrollable="true" scrollHeight="calc(100vh - 1.9rem)">
             <p-column field="vin" header="Vin"></p-column>
             <p-column field="year" header="Year"></p-column>
             <p-column field="brand" header="Brand"></p-column>
